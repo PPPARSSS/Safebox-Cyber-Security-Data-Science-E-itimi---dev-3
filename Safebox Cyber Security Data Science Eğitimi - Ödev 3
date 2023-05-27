@@ -1,13 +1,9 @@
 CASCADE Virüs
 
 Cascade, aynı zamanda Almanya'da "Herbstlaub" olarak adlandırılan, 1986'da ilk görüldüğünde dikkat çeken bir bilgisayar virüsüdür. Bir rezident virüs olan Cascade, enfekte olan program kapatıldıktan sonra bile sistem belleğinde kalmaktadır. Virüs, MS-DOS sistemlerinde yaygın olan COM dosyalarını hedef alır. Enfekte bir COM dosyası çalıştırıldığında, virüs kendisini bilgisayarın belleğine kopyalar ve açılan diğer COM dosyalarını enfekte eder.
-
 Cascade virüsü, uyguladığı zararlı kod olan "payload" ile tanınır. Bu kod, ekrandaki metni aşağı doğru "şelale" gibi dökerek bilgisayarın kullanılmasını imkansız hale getirir. Virüs, BIOS'unda "COPR. IBM" ifadesi bulunan bilgisayarlar üzerinde çalışmasını engellemeye yönelik bir özelliğe sahip olsa da, bu özellik her zaman güvenilir olmamakta ve IBM bilgisayarlarına bulaşabilmektedir.
-
 Nispeten basit bir virüs olmasına rağmen Cascade, 1980'lerde oldukça etkili bir yayılım sergilemiştir. Virüsün dağıtımı, enfekte olmuş disketler ve ağ paylaşımları yoluyla gerçekleştirilmiştir. Kendisini antivirüs yazılımlarından korumak için şifreleyen Cascade, bu yönüyle kaldırılması zor bir virüs olmuştur.
-
 1986 yılında Almanya'da ilk kez tespit edilen Cascade virüsü, Hamburg Üniversitesi'nde öğrenci olan Alman bilgisayar programcısı Karl Koch tarafından oluşturulmuştur. Koch, virüsün oluşturulması nedeniyle daha sonradan tutuklanmış ve iki yıl hapis cezasına çarptırılmıştır. Cascade virüsü, COM dosyalarını hedef alabilme yeteneği sayesinde MS-DOS sistemlerde etkin bir yayılım sergilemiştir. 1980'ler boyunca bilgisayarlarda önemli hasarlara yol açan virüs, tahmini olarak milyarlarca dolar zarara neden olmuştur.
-
 Cascade virüsü, günümüzde çoğu bilgisayarın artık bu virüse karşı savunmasız olmaması nedeniyle büyük bir tehdit olmaktan çıkmıştır. Ancak, hala bir bilgisayar virüsünün tarihi bir örneği olarak kabul edilir ve bilgisayar virüslerinin tehlikeleri hakkında bilgi vermek için kullanılabilir. Bu çerçevede, bilgisayarınızı virüslerden korumak için aşağıdaki ipuçlarına dikkat etmeniz önemlidir:
 
 Bilinmeyen göndericilerden gelen e-postaları açarken dikkatli olun.
@@ -16,5 +12,14 @@ E-postalardaki bağlantılara tıklarken dikkatli olun.
 Bilgisayarınızı izinsiz erişimden korumak için bir güvenlik duvarı kullanın.
 Verilerinizi düzenli olarak yedekleyin.
 
+Analitik SQL nedir ve nerelerde kullanılır?
+Analitik SQL, veritabanlarında analitik sorgular yürütmek için kullanılan bir SQL (Structured Query Language) dilidir. Analitik sorgular, verileri analiz etmek, iş zekası elde etmek ve çeşitli analitik sonuçlar elde etmek için kullanılır. Analitik SQL, geleneksel SQL sorgularından farklı olarak özel analitik fonksiyonlar ve operatörler içerir.
+Analitik SQL, büyük miktardaki verileri hızlı bir şekilde işlemek, veri keşfi yapmak ve verilerden anlamlı bilgiler elde etmek için kullanılır. Özellikle iş zekası, veri analitiği ve raporlama gibi veri odaklı uygulamalarda yaygın olarak kullanılır. Analitik SQL'in kullanıldığı bazı alanlar şunlardır:
+İş Zekası (Business Intelligence): Analitik SQL, iş zekası projelerinde veri analizi yapmak ve iş performansı hakkında bilgi sağlamak için kullanılır. Veritabanındaki verileri sorgulayarak, trendleri belirlemek, önemli metrikleri hesaplamak ve yöneticilere veya kullanıcılara raporlar sunmak için analitik SQL kullanılır.
+Veri Madenciliği: Analitik SQL, veritabanındaki verileri analiz etmek ve desenleri, ilişkileri ve bilinmeyen bilgileri keşfetmek için kullanılır. Örneğin, örüntü tanıma, kümeleme, sınıflandırma veya kestirim modelleri oluşturmak için analitik SQL sorguları kullanılabilir.
+Pazarlama ve Müşteri Analitiği: Analitik SQL, müşteri davranışı analizi, müşteri segmentasyonu, müşteri değerlendirmesi ve pazarlama etkinliklerinin analizi gibi pazarlama ve müşteri odaklı analitik projelerde kullanılır. Bu tür analizler, veritabanındaki müşteri verilerini sorgulayarak müşteri davranışlarını anlamak, tercihleri belirlemek ve pazarlama stratejilerini optimize etmek için yapılır.
+Finansal Analiz: Analitik SQL, finansal verileri analiz etmek ve finansal performansı değerlendirmek için kullanılır. Örneğin, gelir tablosu analizi, varlık ve borç analizi, nakit akışı analizi veya finansal oranları hesaplamak gibi finansal analitik işlemler analitik SQL kullanılarak gerçekleştirilebilir.
+Veri Keşfi ve Veri Görselleştirme: Analitik SQL, veritabanındaki verileri sorgulayarak anlamlı bilgiler elde etmek ve veri keşfi yapmak için.
 
-
+SQL Sorgu Örneği :
+select * from customer where first_name IN ('Barbara', 'Dorothy', 'Karen');
